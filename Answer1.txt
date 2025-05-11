@@ -1,0 +1,12 @@
+import java.util.*;
+public class commit {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+            int pulp=sc.nextInt();
+            int notebook= pulp*10;
+            System.out.println(notebook);
+        }
+    }
+}

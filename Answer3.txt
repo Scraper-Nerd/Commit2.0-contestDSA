@@ -1,2 +1,20 @@
+
 // please paste your code for the Third answer 
+import java.util.*;
+
+public class commit {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            if (n >= 4) {
+                int perimeter = n + (n - 1) + (n - 2);
+                System.out.println(perimeter);
+            } else {
+                System.out.println(-1);
+            }
+        }
+    }
+}
 
